@@ -21,9 +21,8 @@
 
             <input type="submit" value="Login" class="form-btn">
 
-
-        
         </form>
+        <?php flash('reg_flash'); ?>
     </div>
 
 

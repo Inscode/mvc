@@ -1,7 +1,7 @@
 @import url('components/topNavbarStyles.css');
 @import url('components/formStyles.css');
 @import url('components/buttonStyles.css');
-
+@import url('components/flash_message_styles.css');
 @font-face {
   font-family: Poppins-Regular;
   src: url('fonts/Poppins-Regular.ttf');
