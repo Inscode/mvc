@@ -1,0 +1,82 @@
+*****************In fifth video***********
+
+# He did how change the url and loads the controllers inside
+
+1. localhost/mvc/pages(localhost/mvc/Pages) not case sensitive
+
+  it will load the pages controller(Pages.php) which is under
+controllers folder
+
+//<?php
+     class Pages{
+	public function __construct(){
+		echo "this is pages controller"
+        }
+}
+?>
+
+2. localhost/mvc/posts
+
+ it will load the content under Posts.php in controllers folder.
+
+  // <?php
+        class Posts{
+               public function __construct(){
+                      echo "this is posts controller"
+		}
+}
+?>
+
+//
+
+
+***********************In sixth video **********
+
+localhost/mvc/Pages/index
+
+1) in here "index" is the method in Pages.php file 
+   so in the code in Core.php 
+   1. we check is the parameter(index) method in the pages.php
+      file and echo it in the website
+
+// if(isset($url[1])){
+                if(method_exists($this->currentController, $url[1])){
+                    $this->currentMethod = $url[1];
+                }
+            }
+
+            echo $this->currentMethod;
+
+        }
+//
+
+
+localhost/mvc/pages/about/insaf
+
+1) taking the parameter "insaf" and print it in the page
+   Hi Insaf
+
+// 
+
+ if(isset($url[1])){
+                if(method_exists($this->currentController, $url[1])){
+                    $this->currentMethod = $url[1];
+
+                    unset($url[1]);
+                }
+            }
+
+            $this->params = $url ? array_values($url) : [];
+
+            call_user_func_array([$this->currentController, $this->currentMethod], $this->params);
+//
+
+now in the pages file
+
+//
+public function about($name){
+            echo "Hi ".$name;
+
+        }
+     
+//

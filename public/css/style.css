@@ -1,0 +1,16 @@
+@import url('components/topNavbarStyles.css');
+@import url('components/formStyles.css');
+@import url('components/buttonStyles.css');
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('fonts/Poppins-Regular.ttf');
+}
+body{
+    background-color: white;
+    font-family: Poppins-Regular;
+    margin-left: 0;
+    font-size: large;
+    text-align: left;
+}
+
