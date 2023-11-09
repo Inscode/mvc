@@ -1,0 +1,93 @@
+.post-index-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgb(245,244,240);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    width: 500px;
+    border-bottom:1px solid #d3d3d3;
+}
+
+.post-index-container .post-header{
+    padding: 15px;
+    display:flex;
+    flex-direction: row;
+    font-size: 14px;
+    border: 1px solid #d3d3d3;
+}
+
+.post-index-container .post-header .post-user-name{
+    padding-right: 15px;
+    font-weight: 600;
+    color:rgb(42, 38, 38)
+}
+
+.post-index-container .post-header .post-created-at{
+    font-weight: 600;
+    color:rgb(129, 142, 142)
+}
+
+.post-index-container .post-body{
+    padding:15px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.post-index-container .post-body .post-title{
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(43,40,40);
+
+}
+
+.post-index-container .post-footer{
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    font-size:13px;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-index-container .post-footer .post-likes{
+    margin-right: 10px;
+    font-weight: 600;
+    color: green;
+}
+
+.post-index-container .post-footer .post-dislikes{
+    margin-right: 10px;
+    font-weight: 600;
+    color: rgb(204, 20, 20);
+}
+
+
+
+
+
+.post-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding:15px;
+    padding-left: 25px;
+    background-color: rgb(245,244,240);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    width: 500px;
+    border:1px solid #d3d3d3;
+}
+
+form textarea{
+    width: 95%;
+    border:none;
+    background-color:white;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #a8a5a5;
+    border-radius: 5px;
+}
+
+form textarea:focus {
+    outline: 2px solid #7bd664; /* Change the outline to a green border */
+}
+
+

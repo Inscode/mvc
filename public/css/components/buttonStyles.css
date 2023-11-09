@@ -13,3 +13,83 @@
     background-color: rgb(34,75,15);
     border-radius: 5px;
 }
+
+.post-btn{
+    background-color: rgb(36,105,110);
+    color:aliceblue;
+    padding:16px 20px;
+    margin:8px;
+    margin-left: 0;
+    /* margin-right: 20px; */
+    border: none;
+    cursor:pointer;
+    width:95%;
+    transition: .2s all;
+}
+
+.post-btn:hover{
+    background-color: rgb(4, 65, 75);
+    border-radius: 5px;
+}
+
+.post-create-btn{
+    background-color: rgb(24, 148, 49);
+    color:aliceblue;
+    padding:16px 20px;
+    margin:8px;
+    margin-left: 0;
+    /* margin-right: 20px; */
+    border: none;
+    cursor:pointer;
+    width:200px;
+    transition: .2s all;
+}
+
+.post-create-btn:hover{
+    background-color: rgb(30, 86, 12);
+    border-radius: 5px;
+}
+
+.post-control-btns{
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+}
+
+.post-control-btn1{
+    background-color: rgb(36,105,110);
+    color:aliceblue;
+    padding:8px 8px;
+    /* margin:8px; */
+    margin-left: 20px;
+    /* margin-right: 20px; */
+    border: none;
+    cursor:pointer;
+    width:95%;
+    transition: .2s all;
+}
+
+.post-control-btn1:hover{
+    background-color: rgb(4, 65, 75);
+    border-radius: 5px;
+}
+
+
+.post-control-btn2{
+    background-color: rgb(216, 7, 7);
+    color:aliceblue;
+    padding:8px 8px;
+    /* margin:8px; */
+    margin-left: 20px;
+    /* margin-right: 20px; */
+    border: none;
+    cursor:pointer;
+    width:95%;
+    transition: .2s all;
+}
+
+.post-control-btn2:hover{
+    background-color: rgb(140, 7, 7);
+    border-radius: 5px;
+}
+

@@ -4,6 +4,10 @@
     //get the config file
 
     require_once "config/config.php";
+    
+    //time helper
+
+    require_once "helpers/TimeConvert_Helper.php";
 
     //session file
     require_once "helpers/session_Helper.php";
