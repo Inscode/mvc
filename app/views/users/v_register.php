@@ -6,7 +6,25 @@
             <p><b>Please fill the form to register</b></p>
         </div>
         <form action="<?php echo URLROOT ?>/Users/register" method="post">
-
+            <!-- profile-image -->
+            <div class="form-drag-area">
+                <div class="icon">
+                    <img src="<?php echo URLROOT; ?>/img/components/imageUpload/profile-placeHolder.jpg" alt="placeholder" width="90px" height="90px" id="profile-placeHolder">
+                </div>
+                <div class="right-content">
+                    <div class="description">Drag & Drop to Upload File</div>
+                    <div class="form-upload">
+                        <input type="file" name="profile_image" id="profile_image" style="display:none">
+                        Browse File
+                    </div>
+                </div>
+                <div class="form-validation">
+                    <div class="profile-image-validation">
+                        <img src="<?php echo URLROOT; ?>/img/components/imageUpload/green-tick.png" alt="green-tick" width="15px" height="15px">
+                        Select a Profile picture
+                    </div>
+                </div>
+            </div>
              <!-- name -->
             <div class="form-input-title">Name</div>
             <input type="text" name="name" id="name" class="name" value="<?php echo $data['name'];?>">
